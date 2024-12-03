@@ -13,7 +13,7 @@ aro_stats = []
 
 
 acoustic = ["acoustic/mfcc_max.csv","acoustic/mfcc_mean.csv","acoustic/prosody_max.csv","acoustic/prosody_mean.csv","acoustic/compare_max.csv","acoustic/compare_mean.csv","acoustic/emobase_max.csv","acoustic/emobase_mean.csv"]
-linguistic = ["linguistic/mini_384.csv","linguistic/fasttext_ave.csv","linguistic/fasttext_sum.csv","linguistic/glove_ave.csv","linguistic/glove_sum.csv","linguistic/word2vec_ave.csv","linguistic/word2vec_sum.csv"]
+linguistic = ["linguistic/mini_384.csv","linguistic/mpnet_768","linguistic/fasttext_ave.csv","linguistic/fasttext_sum.csv","linguistic/glove_ave.csv","linguistic/glove_sum.csv","linguistic/word2vec_ave.csv","linguistic/word2vec_sum.csv"]
 
     
 def load_data(acou,ling):

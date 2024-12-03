@@ -2,6 +2,12 @@
 
 acoustic/ - Contains the .csv files for each acoustic feature set
 linguistic/ - Contains the .csv files for each linguistic feature set
+
+
+IMPORTANT - Download the mpnet_768 model from here, and store inside linguistic/:
+
+https://drive.google.com/drive/u/0/recent 
+
 models/ - Contains the .pkl files for each model
 labels/ - Contains the .csv file for valence and arousal labels
 testing.py - Python script to evaluate each model and store its statistics in stats.txt

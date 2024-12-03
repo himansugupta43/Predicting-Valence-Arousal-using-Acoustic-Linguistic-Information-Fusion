@@ -86,13 +86,13 @@ for j in acoustic:
                 if version[0] == "val":
                     svr = joblib.load(f"models/{model}")
                     y_pred = svr.predict(X_test)
-                    newstats = evaluate_model(y_test[:, 1], y_pred,"valence",x,y)
+                    newstats = evaluate_model(y_test[:, 0], y_pred,"valence",x,y)
                     val_stats.append(newstats)
                     #plot_results(y_test[:, i], y_pred,target,x,y)
                 elif version[0] == "aro":
                     svr = joblib.load(f"models/{model}")
                     y_pred = svr.predict(X_test)
-                    newstats = evaluate_model(y_test[:, 0], y_pred,"arousal",x,y)
+                    newstats = evaluate_model(y_test[:, 1], y_pred,"arousal",x,y)
                     aro_stats.append(newstats)
                     #plot_results(y_test[:, i], y_pred,target,x,y)
 

@@ -6,7 +6,7 @@ linguistic/ - Contains the .csv files for each linguistic feature set
 
 IMPORTANT - Download the mpnet_768 model from here, and store inside linguistic/:
 
-https://drive.google.com/drive/u/0/recent 
+https://drive.google.com/file/d/1ZFhJPi3BB-5MF85dBxPRargbaK16H2D5/view?usp=drive_link
 
 models/ - Contains the .pkl files for each model
 labels/ - Contains the .csv file for valence and arousal labels

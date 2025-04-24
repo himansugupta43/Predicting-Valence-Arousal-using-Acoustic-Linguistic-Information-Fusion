@@ -1,4 +1,4 @@
-# Predicting Valence and Arousal by Aggregating Acoustic Features for Acoustic-Linguistic Information Fusion
+# Predicting Valence and Arousal using Acoustic-Linguistic Information Fusion
 
 ## Overview
 

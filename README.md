@@ -98,10 +98,6 @@ To obtain utterance-level features, we used different aggregation approaches:
 - Personalized models adapting to individual emotional patterns
 - Real-time applications for virtual assistants and mental health tools
 
-## Project Repository
-
-For code and additional information: [https://github.com/DanTheMan314/SAL-Project](https://github.com/DanTheMan314/SAL-Project)
-
 ## Detailed Results
 
 For complete result tables and analysis: [View Complete Results](https://drive.google.com/file/d/1vbQ-KlyEiNk6XevqSsXSuO5pK4BbPZjR/view?usp=drive_link)

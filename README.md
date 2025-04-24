@@ -87,10 +87,6 @@ To obtain utterance-level features, we used different aggregation approaches:
 - Compare was the best acoustic feature set, closely followed by Emobase
 - 384-dimensional BERT embeddings (MiniLM) offer the best balance of performance and efficiency
 
-## Detailed Results
-
-For complete result tables and analysis: [View Complete Results](https://drive.google.com/file/d/1vbQ-KlyEiNk6XevqSsXSuO5pK4BbPZjR/view?usp=drive_link)
-
 ## Directories and Files
 
 acoustic/ - Contains the .csv files for each acoustic feature set
@@ -106,3 +102,8 @@ labels/ - Contains the .csv file for valence and arousal labels
 testing.py - Python script to evaluate each model and store its statistics in stats.txt
 
 stats.txt - File showing the R2 Score, Explained Variance Score, Root Mean Squared Error and Max Error for each model, broken up by valence and arousal.
+
+## Detailed Results
+
+For complete result tables and analysis: [View Complete Results](https://drive.google.com/file/d/1vbQ-KlyEiNk6XevqSsXSuO5pK4BbPZjR/view?usp=drive_link)
+

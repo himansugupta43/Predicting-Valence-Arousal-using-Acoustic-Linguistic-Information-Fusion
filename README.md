@@ -1,7 +1,5 @@
 # Predicting Valence and Arousal by Aggregating Acoustic Features for Acoustic-Linguistic Information Fusion
 
-*Published in IEEE REGION 10 CONFERENCE (TENCON), 2020*
-
 ## Overview
 
 This project creates Support Vector Regression (SVR) models to predict valence and arousal (emotional attributes) based on speech and text data from the IEMOCAP dataset. We extract and aggregate both acoustic and linguistic features, then fuse them to create comprehensive input vectors for emotion prediction.
@@ -88,15 +86,6 @@ To obtain utterance-level features, we used different aggregation approaches:
 - MFCCs with mean aggregation consistently underperformed for both dimensions
 - Compare was the best acoustic feature set, closely followed by Emobase
 - 384-dimensional BERT embeddings (MiniLM) offer the best balance of performance and efficiency
-
-## Future Scope
-
-- Word/sentence embeddings trained directly on sentiment analysis corpora
-- Direct emotion prediction beyond valence and arousal values
-- Development of specialized acoustic feature sets for emotion recognition
-- Multimodal integration combining audio, text, and visual data
-- Personalized models adapting to individual emotional patterns
-- Real-time applications for virtual assistants and mental health tools
 
 ## Detailed Results
 
